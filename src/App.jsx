@@ -2,7 +2,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="">
         <p>This is a Motion Writer</p>
       </div>
     </>

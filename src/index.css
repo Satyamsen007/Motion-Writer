@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Add custom styles here */
+@font-face {
+  font-family: 'Proxima Nova Alt Bold';
+  src: url('./assets/fonts/Proxima Nova Alt Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url('./assets/fonts/ProximaNova-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Proxima Nova Alt Condensed Regular';
+  src: url('./assets/fonts/Proxima Nova Alt Condensed Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Proxima Nova Alt Extra Condensed Regular';
+  src: url('./assets/fonts/Proxima Nova Alt Extra Condensed Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Proxima Nova Alt Regular';
+  src: url('./assets/fonts/Proxima Nova Alt Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Proxima Nova Black';
+  src: url('./assets/fonts/Proxima Nova Black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Proxima Nova ScOsf Regular';
+  src: url('./assets/fonts/Proxima Nova ScOsf Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BeautyDemo';
+  src: url('./assets/fonts/BeautyDemo.otf') format('opentype');
+}

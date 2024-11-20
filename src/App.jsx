@@ -1,11 +1,13 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import MainLayout from './layout/MainLayout.jsx'
 function App() {
 
   return (
-    <>
-      <div className="">
-        <p>This is a Motion Writer</p>
-      </div>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainLayout></MainLayout>} />
+      </Routes>
+    </Router>
   )
 }
 
